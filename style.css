@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #36384D;
+}
+.conteiner0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 219px, 256px, 220px, 256px;
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    width: 928px;
+height: 641px;
+flex-shrink: 0;
+border-radius: 36px;
+background: #FFF;
+box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 97px, 64px, 98px, 64px;
+}
+.header {
+    color: var(--Dark-Navy, #242742);
+font-family: "Barlow Semi Condensed", serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 100%;
+}
+.text1{
+    color: var(--Dark-Navy, #242742);
+    font-family: "Barlow Semi Condensed", serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 376px;
+padding-top: 24px;
+}
+.check1{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    gap: 16px;
+}
+.check{
+    width: 21px;
+height: 21px;
+}
+.intext{
+    width: 339px;
+    color: var(--Dark-Navy, #242742);
+    font-family: "Barlow Semi Condensed", serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+
+}
+.emailbox{
+    margin-top: 40px;
+    
+}
+#emailForm{
+    width: 376px;
+height: 56px;
+flex-shrink: 0;
+color: var(--Dark-Navy, #242742);
+font-family: "Barlow Semi Condensed", serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+}
+.email{
+    color: var(--Dark-Navy, #242742);
+    font-family: "Barlow Semi Condensed", serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+.Subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 376px;
+height: 56px;
+flex-shrink: 0;
+border-radius: 8px;
+background: var(--Dark-Navy, #242742);
+color: var(--White, #FFF);
+text-align: center;
+font-family: "Barlow Semi Condensed", serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; 
+}
+.image {
+    width: 928px;
+height: 641px;
+border-radius: 36px;
+
+padding: 24px, 24px, 24px;
+}
+
+:hover.Subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 376px;
+height: 56px;
+flex-shrink: 0;
+    border-radius: 8px;
+background: var(--Gradient-1, linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%));
+box-shadow: 0px 16px 32px 0px rgba(255, 97, 85, 0.50);
+color: var(--White, #FFF);
+text-align: center;
+font-family: "Barlow Semi Condensed", serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+}
+:hover.emailForm{
+    color: var(--Dark-Navy, #242742);
+font-family: "Roboto Flex";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+text-decoration-line: 1px solid yellow;
+}
